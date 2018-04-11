@@ -6,6 +6,13 @@ GIT
       better_errors
       rails
 
+GIT
+  remote: https://github.com/firstdraft/draft_log.git
+  revision: 0dd48f82e6bd164d68f75d0a0a644c9c1262fbf5
+  specs:
+    draft_log (0.0.0)
+      awesome_print
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -240,6 +247,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   dev_toolbar!
   dotenv-rails
+  draft_log!
   factory_girl_rails
   font-awesome-sass (~> 4.7.0)
   jbuilder (~> 2.5)

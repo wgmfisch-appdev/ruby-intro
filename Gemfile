@@ -58,7 +58,8 @@ group :development do
   gem 'letter_opener'
   gem 'wdm', platforms: [:mingw, :mswin, :x64_mingw]
   gem 'pry-rails'
-  gem 'dev_toolbar', git: 'https://github.com/firstdraft/dev_toolbar.git'
+  gem 'dev_toolbar', github: 'firstdraft/dev_toolbar'
+  gem 'draft_log', github: 'firstdraft/draft_log'
 end
 
 group :test do
