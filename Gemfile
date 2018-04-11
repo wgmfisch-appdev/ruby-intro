@@ -56,8 +56,9 @@ group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'letter_opener'
-  gem 'pry-rails'
   gem 'wdm', platforms: [:mingw, :mswin, :x64_mingw]
+  gem 'pry-rails'
+  gem 'dev_toolbar', git: 'https://github.com/firstdraft/dev_toolbar.git'
 end
 
 group :test do
