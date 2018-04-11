@@ -1,12 +1,4 @@
 GIT
-  remote: https://github.com/firstdraft/dev_toolbar.git
-  revision: f9745615dc922c3e8471b27fd1826415dd12cfd8
-  specs:
-    dev_toolbar (0.1.0)
-      better_errors
-      rails
-
-GIT
   remote: https://github.com/firstdraft/draft_log.git
   revision: 0dd48f82e6bd164d68f75d0a0a644c9c1262fbf5
   specs:
@@ -245,7 +237,6 @@ DEPENDENCIES
   byebug
   capybara
   coffee-rails (~> 4.2)
-  dev_toolbar!
   dotenv-rails
   draft_log!
   factory_girl_rails
