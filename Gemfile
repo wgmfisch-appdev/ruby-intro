@@ -47,18 +47,23 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-group :development, :test do
-  gem 'dotenv-rails'
+group :production do
+  gem "pg"
+  gem "rails_12factor"
 end
 
-group :development do
+group :development, :test do
+  gem "annotate"
   gem 'awesome_print'
   gem 'better_errors'
   gem 'binding_of_caller'
+  gem "console_ip_whitelist", github: "firstdraft/console_ip_whitelist"
+  gem "dotenv-rails"
+  gem 'draft_log', github: 'firstdraft/draft_log'
   gem 'letter_opener'
   gem 'wdm', platforms: [:mingw, :mswin, :x64_mingw]
   gem 'pry-rails'
-  gem 'draft_log', github: 'firstdraft/draft_log'
+  gem "web_git", github: "firstdraft/web_git"
 end
 
 group :test do

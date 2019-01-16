@@ -4,7 +4,7 @@ class ProgramsController < ApplicationController
 
     @your_output = "Replace this string with your output"
 
-    render("programs/home.html.erb")
+    render("programs_templates/home.html.erb")
   end
 
   def first_program
@@ -12,7 +12,7 @@ class ProgramsController < ApplicationController
 
     @your_output = "Replace this string with your output"
 
-    render("programs/first_program.html.erb")
+    render("programs_templates/first_program.html.erb")
   end
 
   def second_program
@@ -20,7 +20,7 @@ class ProgramsController < ApplicationController
 
     @your_output = "Replace this string with your output"
 
-    render("programs/second_program.html.erb")
+    render("programs_templates/second_program.html.erb")
   end
 
   def third_program
@@ -30,6 +30,6 @@ class ProgramsController < ApplicationController
 
     @your_output = "Replace this string with your output"
 
-    render("programs/third_program.html.erb")
+    render("programs_templates/third_program.html.erb")
   end
 end

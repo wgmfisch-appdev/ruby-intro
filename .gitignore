@@ -16,6 +16,8 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
+whitelist.yml
+cloud9_plugins.sh
 
 # Ignore Byebug command history file.
 .byebug_history
