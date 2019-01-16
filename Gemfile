@@ -8,8 +8,7 @@ end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.2'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+
 # Use Puma as the app server
 # gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
@@ -61,6 +60,7 @@ group :development, :test do
   gem "dotenv-rails"
   gem 'draft_log', github: 'firstdraft/draft_log'
   gem 'letter_opener'
+  gem "sqlite3"
   gem 'wdm', platforms: [:mingw, :mswin, :x64_mingw]
   gem 'pry-rails'
   gem "web_git", github: "firstdraft/web_git"
